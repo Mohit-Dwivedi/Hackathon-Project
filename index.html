@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="style.css">
+
+    <title>Animated login form - Bedimcode</title>
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <i class="ri-user-3-line login-icon"></i>
+            <h3>Teacher Academy</h3>
+        </div>
+
+        <div class="heading-side">
+            <p>Learn More</p>
+            <div>Explre Course List</div>
+            <div class="side">Enroll Now</div>
+        </div>
+    </header>
+
+    <div class="login"> 
+
+        <form action="" class="login-form">
+            <h1 class="loginTitle">Register</h1>
+
+            <div class="login-content">
+                <div class="login-box">
+                    <i class="ri-user-3-line login-icon"></i>
+
+                    <div class="login-box-input">
+                        <input type="email" required class="login-input" id="login-email" placeholder=" ">
+                        <label for="login-email" class="login-label">Name</label>
+                    </div>
+                </div>
+
+                <div class="login-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class=" login-icon">
+                    <path d="M14 22v-4a2 2 0 1 0-4 0v4" />
+                    <path d="m18 10 4 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8l4-2" />
+                    <path d="M18 5v17" />
+                    <path d="m4 6 8-4 8 4" />
+                    <path d="M6 5v17" />
+                    <circle cx="12" cy="9" r="2" />
+                </svg>
+                    <div class="login-box-input">
+                        <input type="email" required class="login-input" id="login-email" placeholder=" ">
+                        <label for="login-email" class="login-label">Student Id</label>
+                    </div>
+                </div>
+
+                <div class="login-box">
+                    <i class="ri-lock-2-line login-icon"></i>
+
+                    <div class="login-box-input">
+                        <input type="password" required class="login-input" id="login-pass" placeholder=" ">
+                        <label for="login-pass" class="login-label">Password</label>
+                        <i class="ri-eye-off-line login-eye" id="login-eye"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="login-button">Login</button>
+
+            <p class="login-register">
+                Don't have an account? <a href="#">Register</a>
+            </p>
+        </form>
+    </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="script.js"></script>
+</body>
+
+</html>
